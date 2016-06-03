@@ -13,10 +13,11 @@
 	* Run tests in viewDidLoad: to set for all possible options such as creation, deletion of Student records.
 	* Implement creation / deletion of student records into the UI.
 	* Update StudentStore to include completions in add:, remove:, removeItIndexPath: methods.
-* **Code Challenge:**
-	*
-* **Bonus:**
-	*
+
+###Reading Assignment:
+* Programming in Objective-C:
+  * **Chapter 4:** Data Types and Expressions
+  * **Chapter 5:** Program Looping
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)

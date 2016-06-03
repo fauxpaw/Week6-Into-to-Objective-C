@@ -3,18 +3,12 @@
 * Create a simple AddressBook app. See Book examples, but make sure to disable ARC.
 * write your own userDefaults that uses JSON format
 * manage your memory, create proper setters that retain/copy data when assigned(Dont use @property)
-* **Code Challenge:**
-	*
 * **Bonus:**
 	* make a private init to make a true singleton(5 Points)
 
-###Readings:
-* Foundation Framework
-* Numbers, Strings, and Collections
-* Working with Files(NSFileManager and NSData)
-* Memory Management and ARC
-* Copying Objects
-* Archiving
+###Reading Assignment:
+* Programming in Objective-C
+  * **Chapter 15:** Numbers, Strings, and Collections
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)

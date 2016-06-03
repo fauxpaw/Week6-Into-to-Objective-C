@@ -7,10 +7,11 @@
 	* Conform Student class to NSCoding protocol and implement required methods.
 * Define and build StudentStore.
 	* Make this class a singleton that manages an array of students.
-* **Code Challenge:**
-	*
-* **Bonus:**
-	*
+
+###Reading Assignment:
+* Programming in Objective-C
+  * **Chapter 16:** Working with Files
+  * **Chapter 17:** Memory Management and Automatic Reference Counting
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)
