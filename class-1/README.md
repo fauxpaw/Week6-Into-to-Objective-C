@@ -13,6 +13,7 @@
   * **Chapter 2:** Programming in Objective-C
   * **Chapter 3:** Objects, Classes, Methods
   * **Chapter 7:** More on Classes
+	* **Chapter 15:** Numbers, Strings, and Collections
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)

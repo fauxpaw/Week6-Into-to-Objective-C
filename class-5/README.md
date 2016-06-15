@@ -3,8 +3,11 @@
 ##PROFESSIONAL DEVELOPMENT DAY
 
 ###Reading Assignment:
-* Cracking the coding Interview/Programming Interviews Exposed:
-  * Binary Search Trees
+* Programming in Objective-C:
+  * **Chapter 9:** Polymorphism, Dynamic Typing and Dymanic Binding
+* Apple Documentation
+  * MapKit
+
 
 
 ###Coding Challenges

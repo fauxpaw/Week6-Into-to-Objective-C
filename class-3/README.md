@@ -9,9 +9,9 @@
 	* Make this class a singleton that manages an array of students.
 
 ###Reading Assignment:
-* Programming in Objective-C
-  * **Chapter 16:** Working with Files
-  * **Chapter 17:** Memory Management and Automatic Reference Counting
+* Programming in Objective-C:
+  * **Chapter 4:** Data Types and Expressions
+  * **Chapter 5:** Program Looping
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)

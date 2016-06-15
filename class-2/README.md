@@ -8,7 +8,8 @@
 
 ###Reading Assignment:
 * Programming in Objective-C
-  * **Chapter 15:** Numbers, Strings, and Collections
+  * **Chapter 16:** Working with Files
+  * **Chapter 17:** Memory Management and Automatic Reference Counting
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)

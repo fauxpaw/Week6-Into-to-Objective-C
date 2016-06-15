@@ -15,9 +15,8 @@
 	* Update StudentStore to include completions in add:, remove:, removeItIndexPath: methods.
 
 ###Reading Assignment:
-* Programming in Objective-C:
-  * **Chapter 4:** Data Types and Expressions
-  * **Chapter 5:** Program Looping
+* Cracking the coding Interview/Programming Interviews Exposed:
+  * Binary Search Trees
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)
