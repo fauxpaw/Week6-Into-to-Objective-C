@@ -1,9 +1,9 @@
 //
 //  Person.h
-//  lab#2
+//  MRC
 //
-//  Created by Michael Sweeney on 7/12/16.
-//  Copyright © 2016 Michael Sweeney. All rights reserved.
+//  Created by Adam Wallraff on 7/12/16.
+//  Copyright © 2016 Michael Babiy. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -13,7 +13,6 @@
 {
     NSString *_name;
     NSString *_email;
-    NSString *_address;
 }
 
 -(void)setName:(NSString *)name;
@@ -22,10 +21,6 @@
 -(void)setEmail:(NSString *)email;
 -(NSString *)email;
 
--(void)setAddress:(NSString *)address;
--(NSString *)address;
-
 -(NSString *)description;
-
 
 @end
