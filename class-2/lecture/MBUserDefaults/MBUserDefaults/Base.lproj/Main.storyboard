@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOG-zI-Wak">
+                                <rect key="frame" x="259" y="285" width="83" height="30"/>
+                                <state key="normal" title="Preferences"/>
+                                <connections>
+                                    <action selector="preferencesButtonSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vHh-yH-dV0"/>
+                                    <segue destination="lE0-rJ-aen" kind="presentation" identifier="PreferencesViewController" id="4Uo-6I-LgJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status: Off" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJ2-f5-q5V">
+                                <rect key="frame" x="20" y="256" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uJ2-f5-q5V" secondAttribute="trailing" constant="20" id="16S-A2-sOH"/>
+                            <constraint firstItem="OOG-zI-Wak" firstAttribute="top" secondItem="uJ2-f5-q5V" secondAttribute="bottom" constant="8" id="3Xf-Lr-toK"/>
+                            <constraint firstItem="uJ2-f5-q5V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="8Pf-1B-dAl"/>
+                            <constraint firstItem="OOG-zI-Wak" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CCm-kn-fB4"/>
+                            <constraint firstItem="OOG-zI-Wak" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sg9-pz-Eih"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="statusLabel" destination="uJ2-f5-q5V" id="HWl-VL-d3n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="365" y="349"/>
+        </scene>
+        <!--Preferences View Controller-->
+        <scene sceneID="Fid-zH-cG6">
+            <objects>
+                <viewController storyboardIdentifier="PreferencesViewController" id="lE0-rJ-aen" customClass="PreferencesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="axh-Ur-2cB"/>
+                        <viewControllerLayoutGuide type="bottom" id="HT3-3F-6ku"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qvq-Gj-QTc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Qe-xo-OAN">
+                                <rect key="frame" x="20" y="28" width="39" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="closeButtonSelected:" destination="lE0-rJ-aen" eventType="touchUpInside" id="XH2-hP-hOA"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TBU-ey-1gt">
+                                <rect key="frame" x="276" y="284" width="51" height="31"/>
+                                <connections>
+                                    <action selector="preferencesChanged:" destination="lE0-rJ-aen" eventType="valueChanged" id="uND-W9-RhZ"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Qe-xo-OAN" firstAttribute="leading" secondItem="Qvq-Gj-QTc" secondAttribute="leading" constant="20" id="I1T-db-k59"/>
+                            <constraint firstItem="TBU-ey-1gt" firstAttribute="centerX" secondItem="Qvq-Gj-QTc" secondAttribute="centerX" id="PKM-8d-eeM"/>
+                            <constraint firstItem="5Qe-xo-OAN" firstAttribute="top" secondItem="axh-Ur-2cB" secondAttribute="bottom" constant="8" id="U1I-Ow-r14"/>
+                            <constraint firstItem="TBU-ey-1gt" firstAttribute="centerY" secondItem="Qvq-Gj-QTc" secondAttribute="centerY" id="b9O-rR-RjV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="preferencesSwitch" destination="TBU-ey-1gt" id="7Uy-7P-6HU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wxe-wZ-CLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1051" y="349"/>
+        </scene>
+    </scenes>
+</document>
